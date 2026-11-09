@@ -56,6 +56,8 @@ textarea{min-height:120px}
 footer{text-align:center;padding:50px 6% 90px;border-top:1px solid #d4af6a33;color:#a89878;font-size:.85rem;line-height:2}
 footer a{color:var(--gold);text-decoration:none}
 .wa{position:fixed;right:20px;bottom:20px;width:62px;height:62px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px #000a;z-index:60;text-decoration:none;font-size:30px}
+.instagram{position:fixed;right:20px;bottom:94px;width:62px;height:62px;border-radius:50%;background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px #000a;z-index:60}
+.instagram svg{width:30px;height:30px;fill:none;stroke:#fff;stroke-width:2}
 .reveal{opacity:0;transform:translateY(40px);transition:1s}
 .reveal.show{opacity:1;transform:none}
 @media(max-width:700px){nav a{display:none}.trailer{height:200px}.photos img{height:260px}}
@@ -99,9 +101,9 @@ footer a{color:var(--gold);text-decoration:none}
   <h2 class="reveal">Signature Glass Trailers</h2>
   <p class="sub reveal">Your dream car, delivered inside a fully transparent glass trailer with ambient lighting. The ultimate surprise for proposals, birthdays, anniversaries and celebrations across Dubai.</p>
   <div class="photos reveal">
-    <!-- Replace these two links with your own uploaded photos: trailer-night.jpg and trailer-sunset.jpg -->
-    <img src="trailer-night.jpg" alt="Delta Dubai glass trailer at night in Dubai">
-    <img src="trailer-sunset.jpg" alt="Delta Dubai glass trailer at sunset with team">
+    <img src="IMG_1370.png" alt="Delta Dubai luxury car and glass trailer experience">
+    <img src="IMG_1463.jpeg" alt="Delta Dubai signature trailer moment in Dubai">
+    <img src="IMG_1419.jpeg" alt="Delta Dubai premium luxury car presentation">
   </div>
 </section>
 
@@ -145,15 +147,22 @@ footer a{color:var(--gold);text-decoration:none}
   <div class="brand" style="font-family:'Cormorant Garamond',serif;color:var(--gold);letter-spacing:5px;font-size:1.4rem">DELTA DUBAI</div>
   Driven by Excellence<br>
   Dubai, United Arab Emirates<br>
-  <a href="https://www.instagram.com/delta.dubai_" target="_blank">Instagram @delta.dubai_</a><br>
+  <a href="https://www.instagram.com/delta.dubai_" target="_blank" rel="noopener noreferrer">Instagram @delta.dubai_</a><br>
   Nominated: Best New Business Award<br>
   &copy; Delta Dubai
 </footer>
 
-<a class="wa" id="wafloat" href="https://wa.me/971500000000" target="_blank" aria-label="WhatsApp">&#128172;</a>
+<a class="wa" id="wafloat" href="https://wa.me/971582658210" target="_blank" aria-label="WhatsApp">&#128172;</a>
+<a class="instagram" href="https://www.instagram.com/delta.dubai_/" target="_blank" rel="noopener noreferrer" aria-label="Visit Delta Dubai on Instagram">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+    <circle cx="12" cy="12" r="4"></circle>
+    <circle cx="18" cy="6" r="1" fill="#fff" stroke="none"></circle>
+  </svg>
+</a>
 
 <script>
-var NUMBER="971500000000"; // put the real WhatsApp number here, with country code, no plus sign
+var NUMBER="971582658210";
 document.getElementById('wafloat').href="https://wa.me/"+NUMBER;
 document.getElementById('enq').addEventListener('submit',function(e){
   e.preventDefault();
